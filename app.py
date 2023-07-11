@@ -9,7 +9,8 @@ import openai
 import time
 import os
 
-st.title("Let's explores session states and callback functions") 
+############## MEDICAL Q&A with LLMs###################
+st.title("Medical Document Q&A") 
 uploaded_files = st.sidebar.file_uploader("",accept_multiple_files=True, type=['pdf'])
 if uploaded_files:
         data = []
